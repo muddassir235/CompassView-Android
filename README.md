@@ -13,4 +13,25 @@ It is similar to arrows shown in the google weather card.
 
 This custom view doesn't support resizing to more than 22dp x 22dp and doesn't support xml attributes yet.
 
+adding compass to xml
+
+```
+ <com.example.hp.sunshine.Compass
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wind_compass"/>
+```
+
+Find View in Java
+```
+Compass compass = (Compass) view.findViewById(R.id.wind_compass);
+```
+
+By default the compass is 22dp x 22dp which is it's full scale size and is at 0 degrees to North
+
+```
+compass.setAngle(windAngle); // @param: integer angle (N = 0, E = 90, S = 180, W = 270)
+compass.setScale(windSpeed); // @param: float scale: e.g 0.45f (max upto 1.0f) otherwise the arrow will become bigger than the view bounds
+```
+set direction
 
