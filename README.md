@@ -9,10 +9,13 @@ A custom compass that shows the direction of a vector ahd can be scaled accordin
 
 It is similar to arrows shown in the google weather card.
 
-![](https://lh3.googleusercontent.com/QTx0sDvelWn0naACyNebNBd9GAGUb5X3jyRdBKYE6TAPARILjCdG-aY8yzPrilD3r0GLdYfmk8h_Q_-5fq1pLtnF-7rGZhmT4yuk1Q9mG-mcS0fSIEcTHUBa-Q3PR7xEuvJ_KFyUXlFcGY-uuVwvK9C09z9cCdqf8REZNmv1I8fS8zu2am0M-Z-loC2QTtmr75S21TeArSLuF1Rkd3U-X2U_hyX8RMy3Ua9QEIWF470eCMiUjuFUIjfgWDtYKBq7NcthwLpg_6g-XrqU-urbvahut2OvqpQQXgo0dxogtSqefwTlBA8NIv9-EAMfVcO4hszU1OOKieYl9-O-L59h7lt1HOki1g2MXzjdx3CwJMxjojFINkzaAuL_1xDkDDpEUZNHl0G3NN1bgBaMByyvbWvlgRLpzMdMlaADloKy-qFD3cl4_iPZqkTw5Bi3IyKxx-_-LMD1537gdnucBGW96RJTa_7i2zHBOzKw3F4xi_Ek6ZEIA6rOwx3phOO3d_VOBLoagyn6ulpd5Vt0AE8DV0ccWQU-uOqU9Yw8OfZw53n3g5fqOMMMysHGRVivKqtQiFgTIOaBnOlSHGBMAqkhVU0Thz3ewDL4HGVh1u35EjlKYc_u=w659-h470-no)
+![](https://github.com/muddassir235/CompassView/blob/master/google_weather_card.PNG?raw=true)
+
+## Issues:
 
 This custom view doesn't support resizing to more than 22dp x 22dp and doesn't support xml attributes yet.
 
+## How to use:
 adding compass to xml
 
 ```
@@ -35,3 +38,16 @@ compass.setScale(windSpeed); // @param: float scale: e.g 0.45f (max upto 1.0f) o
 ```
 set direction
 
+## LICENSE:
+
+Issued under Apache [license](https://github.com/muddassir235/CompassView/blob/master/license.txt) 2.0.
+
+## How to contribute:
+
+- `fork` this repo to your profile.
+![](https://github.com/muddassir235/CompassView/blob/master/fork_icon.PNG?raw=true)
+- `clone` it locally using the following command.
+
+    `> git clone https://github.com/YOUR_USERNAME_HERE/CompassView`
+- Edit the `CompassView.java` file as you wish.
+- Run and Enjoy :-)
